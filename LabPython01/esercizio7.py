@@ -1,0 +1,5 @@
+hh=int(input())
+mm=int(input())
+ss=int(input())
+a=(((hh*60)*60)+(mm*60)+ss)
+print(a)

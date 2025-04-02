@@ -1,0 +1,5 @@
+s=input()
+c=input()
+print(s.replace(c,'1'))
+pos=s.find(c)
+print(s[0:pos+1])+s[pos+1:].replace(c,'2')
